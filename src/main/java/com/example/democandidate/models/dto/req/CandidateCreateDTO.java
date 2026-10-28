@@ -19,5 +19,6 @@ public record CandidateCreateDTO(
 
         @Min(value = 0, message = "Số năm kinh nghiệm không được nhỏ hơn 0")
         Integer yearsOfExperience
+
 ) {
 }
